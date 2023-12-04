@@ -1,0 +1,773 @@
+/*Esto es el reset original*/
+
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body
+{
+	background-color: #392f2f;
+}
+
+
+
+/*Aquí comienza la paleta de colores*/
+
+.first-color { 
+	background: #392f2f; 
+}
+	
+.second-color { 
+	background: #3a7563; 
+}
+
+.third-color { 
+	background: #59a985; 
+}
+
+.fourth-color { 
+	background: #e6d3a7; 
+}
+
+/*Aquí comienza a editarse la barra de navegación*/
+
+nav
+{
+	background-color: #392f2f;
+	border-color: black;
+	border-style: solid;
+	height: 125px;
+	position: fixed;
+	top: 0;
+	transition-duration: 0.75s;
+	transition-property: top;
+	width: 100%;
+	z-index: 0;
+}
+
+#logoNav
+{
+	border-radius: 0%;
+	float: left;
+	height: 100%;
+	margin-left: 1.5%;
+	margin-top: 0px;
+	width: auto;
+
+}
+
+#menu
+{
+	float: left;
+	list-style-type: none;
+	margin-left: 80px;
+	overflow: hidden;
+	width: auto;
+}
+
+.elementoMenu
+{
+	float:left;
+	margin: 110px 110px;
+	margin-top: 40px;
+}
+
+.elementoMenu>a
+{
+	color: black;
+	font-family: Impact, sans-serif;
+	font-size: 1.5rem;
+	position: inherit;
+	text-decoration: none;
+	transition-duration: 0.25s;
+	transition-property: color;
+
+}
+
+.elementoMenu>a:hover
+{
+	color: #e6d3a7;
+}
+
+#log
+{
+	border-style: none;
+	float: right;
+	height: 60px;
+	list-style: none;
+	margin-top: 30px;
+	width: 400px;
+}
+
+#log > a
+{
+	color: inherit;
+	font-family: Impact, sans-serif;
+	font-size: 1.5rem;
+	position: inherit;
+	text-decoration: none;
+	transition-duration: 0.25s;
+	transition-property: color;
+	text-decoration: none;
+}
+
+select
+{
+	background-color: #000;
+	color:#e6d3a7 ;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.15em;
+	margin-top: 10px;
+	height: 100%;
+}
+
+.language
+{
+	background-color: none;
+	height: 50%;
+	margin-right: 0px;
+	margin-top: 10px;
+	width: 50%;
+}
+
+.language
+{
+	background-color: none;
+	height: 50%;
+	margin-right: 0px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+/*Aquí maquetamos el login y sign up*/
+
+.botonLogin
+{
+	background-color: black;
+	border: solid;
+	border-radius: 5px;
+	color: #e6d3a7;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.15rem;
+	float: right;
+	height: 100%;
+	margin-right: 10%;
+	margin-top: -12.5px;
+	padding: 1%;
+	transition-duration: 0.25s;
+	width: 25%;
+}
+
+.botonLogin:hover
+{
+	background-color: #e6d3a7;
+	border: solid;
+	border-radius: 5px;
+	color: black;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.15rem;
+	float: right;
+	height: 100%;
+	margin-right: 10%;
+	margin-top: -12.5px;
+	transition-duration: 0.25s;
+	width: 25%;
+}
+
+.botonSignup
+{
+	background-color: black;
+	border: solid;
+	border-radius: 5px;
+	color: #e6d3a7;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.15rem;
+	float: right;
+	height: 100%;
+	margin-right: 10%;
+	margin-top: -12.5px;
+	padding: 1%;
+	transition-duration: 0.25s;
+	width: 25%;
+}
+
+.botonSignup:hover
+{
+	background-color: #e6d3a7;
+	border: solid;
+	border-radius: 5px;
+	color: black;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.15rem;
+	float: right;
+	height: 100%;
+	margin-right: 10%;
+	margin-top: -12.5px;
+	transition-duration: 0.25s;
+	width: 25%;
+}
+
+.listaLog
+{
+	list-style: none;
+	margin-top: -10px;
+	text-decoration: none;
+}
+
+.listaLog > li > a
+{
+	color: #e6d3a7;
+	float: right;
+	margin-right: 13%;
+	
+}
+
+/*Aquí maquetamos las secciones*/
+
+section
+{
+	height: 1080px;
+	width: 1920px;
+}
+
+/*Aquí comienza la maquetación de las plantillas de contenido*/
+
+.contenedor
+{
+	background-color: #59a985;
+	border-style: none;
+	height: 100%;
+	margin-top: 125px;
+	width: 100%;
+}
+
+.columnaContenido
+{
+	background-color: #e6d3a7;
+	background-image: none;
+	border-style: none;
+	float: left;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+.columnaContenido > h2, h3
+{	
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 2.5em;
+	margin-top: 35px;
+	padding-top: 15px;
+}
+
+.columnaContenido > h3
+{	
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.5em;
+	margin-top: 35px;
+	padding-top: 15px;
+}
+
+.columnaContenido > p
+{	
+	font-family: Garamond, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.25em;
+	margin-top: 35px;
+	padding-top: 15px;
+}
+
+/*Aquí comienza la sección de la hero image*/
+
+#heroImage
+{
+	background-image: url();
+}
+
+/*Aquí comienza la sección de la galería*/
+
+#galeria
+{	
+	height: 1080px;
+	width: 1920px;
+}
+
+.fotoGaleria
+{
+	background-color: red;
+	
+	border: #000;
+	border-radius: 15px;
+	border-style: solid;
+	float: left;
+	height: 250px;
+	margin-left: 135px;
+	margin-top: 30px;
+	width: 450px;
+	z-index: 0;
+}
+
+.fotoGaleria:hover
+{
+	scale: 1.5;
+	transition-duration: 0.25s;
+}
+
+.foto1
+{
+	background-image: url(../Media/Galeria_1_Def.jpg);
+}
+
+.foto2
+{
+	background-image: url(../Media/Galeria_2_Def.jpg);		
+}
+
+.foto3
+{
+	background-image: url(../Media/Galeria_3_Def.jpg);	
+}
+
+.foto4
+{
+	background-image: url(../Media/Galeria_4_Def.jpg);	
+}
+
+.foto5
+{
+	background-image: url(../Media/Galeria_5_Def.jpg);	
+}
+
+.foto6
+{
+	background-image: url(../Media/Galeria_6_Def.jpg);	
+}
+
+.foto7
+{
+	background-image: url(../Media/Galeria_7_Def.jpg);	
+}
+
+.foto8
+{
+	background-image: url(../Media/Galeria_8_Def.jpg);	
+}
+
+.foto9
+{
+	background-image: url(../Media/Galeria_9_Def.jpg);	
+}
+
+/*Aquí comienza la sección quienes somos*/
+
+#quienesSomos
+{	
+	height: 1080px;
+	width: 1920px;
+}
+
+/*Aquí comienza la sección contacto*/
+
+#contacto
+{	
+	height: 1080px;
+	width: 1920px;
+}
+
+.interaccionContacto > h3
+{	
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.5em;
+	margin-top: 35px;
+	padding-top: 15px;
+}
+
+#formularioContacto
+{
+	background-color: none;
+	height: 100%;
+	padding-top: 120px;
+	padding-left: 76px;
+	width: 100%;
+
+}
+
+.elementoFormularioContacto
+{
+	height: 25px;
+	width: 100%;
+}
+
+.elementoFormularioContacto > label
+{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.elementoFormularioContacto > textarea
+{
+	box-sizing:border-box;
+	height: 250px;
+	resize: none;
+	width: 450px;
+}
+
+.cajaMensaje
+{
+	height: 250px;
+	width: 450px;
+}
+
+.botonContacto
+{
+	margin-top: 13%;
+	background-color: black;
+	color: #e6d3a7;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/*Aquí comienza el modal del contacto*/
+
+/*Modal de Contacto*/
+
+#modalContacto
+{
+	background-color: rgba(154, 145, 139, 0.8);
+	display: none;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top:0px;
+	z-index: 5;
+
+}
+
+#modalBoxContacto
+{
+	background-color: lightgrey;
+	border-radius: 25px;
+	height: 325px;
+	left: 50%;
+	padding: 50px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+}
+
+
+#modalBoxContacto>h1
+{
+	font-size: 3rem;
+	font-family: Garamond, sans-serif;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+#modalBoxContacto>p
+{
+	font-family: Garamond, sans-serif;
+	font-size: 1.15rem;
+	font-weight: normal;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+#modalBoxContacto>button
+{
+	background-color: black;
+	border-radius: 15px;
+	color: white;
+	font-size: 2rem;
+	font-family: Garamond, sans-serif;
+	padding: 10px, 15px;
+}
+
+#modalBoxContacto>button:hover
+{
+	background-color: white;
+	color: black;
+	
+}
+
+/*Aquí comienza el modal del contacto*/
+
+/*Modal de Login*/
+
+#modalLogin
+{
+	background-color: rgba(154, 145, 139, 0.8);
+	display: none;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top:0px;
+	z-index: 5;
+
+}
+
+/*Aquí empieza el modal de Login*/
+
+#modalBoxLogin
+{
+	background-color: #59a985;
+	border-radius: 25px;
+	height: 425px;
+	left: 50%;
+	padding: 50px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+}
+
+
+#modalBoxLogin>h1
+{
+	font-size: 3rem;
+	font-family: Garamond, sans-serif;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+#modalBoxLogin>p
+{
+	font-family: Garamond, sans-serif;
+	font-size: 1.15rem;
+	font-weight: normal;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+#modalBoxLogin>button
+{
+	background-color: black;
+	border-radius: 15px;
+	color: white;
+	font-size: 2rem;
+	font-family: Garamond, sans-serif;
+	padding: 10px, 15px;
+}
+
+#modalBoxLogin>button:hover
+{
+	background-color: white;
+	color: black;
+	
+}
+
+.interaccionLogin > h3
+{	
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.5em;
+	margin-top: 35px;
+	padding-top: 15px;
+}
+
+#formularioLogin
+{
+	background-color: none;
+	height: 100%;
+	padding-top: 120px;
+	padding-left: 76px;
+	width: 100%;
+
+}
+
+.elementoFormularioLogin
+{
+	height: 25px;
+	width: 100%;
+}
+
+.elementoFormularioLogin > label
+{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.elementoFormularioLogin > textarea
+{
+	box-sizing:border-box;
+	height: 250px;
+	resize: none;
+	width: 450px;
+}
+
+.botonLoginModal
+{
+	margin-top: 3%;
+	background-color: black;
+	color: #e6d3a7;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/*Aquí empieza el modal de Sign up*/
+
+/*Modal de Sign up*/
+
+#modalSignup
+{
+	background-color: rgba(154, 145, 139, 0.8);
+	display: none;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top:0px;
+	z-index: 5;
+
+}
+
+#modalBoxSignup
+{
+	background-color: #59a985;
+	border-radius: 25px;
+	height: 425px;
+	left: 50%;
+	padding: 50px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+}
+
+
+#modalBoxSignup>h1
+{
+	font-size: 3rem;
+	font-family: Garamond, sans-serif;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+#modalBoxSignup>p
+{
+	font-family: Garamond, sans-serif;
+	font-size: 1.15rem;
+	font-weight: normal;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+#modalBoxSignup>button
+{
+	background-color: black;
+	border-radius: 15px;
+	color: white;
+	font-size: 2rem;
+	font-family: Garamond, sans-serif;
+	padding: 10px, 15px;
+}
+
+#modalBoxSignup>button:hover
+{
+	background-color: white;
+	color: black;
+	
+}
+
+.interaccionSignup > h3
+{	
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.5em;
+	margin-top: 35px;
+	padding-top: 15px;
+}
+
+#formularioSignup
+{
+	background-color: none;
+	height: 100%;
+	padding-top: 120px;
+	padding-left: 76px;
+	width: 100%;
+
+}
+
+.elementoFormularioSignup
+{
+	height: 25px;
+	width: 100%;
+}
+
+.elementoFormularioSignup > label
+{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.elementoFormularioSignup > textarea
+{
+	box-sizing:border-box;
+	height: 250px;
+	resize: none;
+	width: 450px;
+}
+
+.botonSignupModal
+{
+	margin-top: 3%;
+	background-color: black;
+	color: #e6d3a7;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/*Aquí comienza el pie*/
+
+#pie
+{
+	background-color: #392f2f;
+	border-color: black;
+	border-style: solid;
+	color: #e6d3a7;
+	height: 125px;
+	width: 100%;
+}
+
+.redes
+{
+	background-color: black;
+	border-radius: 15px;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	width: 25%;
+}
+
+.elementoRedes
+{
+	
+	height: 35px;
+	margin-bottom: 20px;
+	margin-left: 15%;
+	margin-right: 40px;
+	margin-top: 2%;
+	width: 35px;
+}
+
+.elementoRedes > img
+{
+	margin-bottom: 15px;
+	margin-left: 60px;
+	margin-right: 50px;
+	margin-top: 10px;
+	
+}
